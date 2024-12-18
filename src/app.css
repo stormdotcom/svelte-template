@@ -9,7 +9,7 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #4c51bf; /* Scrollbar thumb color */
+    background-color: ##F8717180; /* Scrollbar thumb color */
     border-radius: 4px; /* Rounded corners */
   }
   
@@ -25,6 +25,6 @@
   /* For Firefox */
   * {
     scrollbar-width: thin; /* Makes scrollbar thinner */
-    scrollbar-color: #4c51bf #f0f0f0; /* Thumb and track colors */
+    scrollbar-color: ##F8717180 #f0f0f0; /* Thumb and track colors */
   }
   

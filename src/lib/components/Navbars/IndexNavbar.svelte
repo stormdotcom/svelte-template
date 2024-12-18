@@ -55,7 +55,7 @@
             <i class="fas fa-book mr-2 text-grey-500"></i> Read Docs
           </a>
         </li>
-
+        <IndexDropdown />
         <!-- Login Button -->
         <li class="flex items-center">
           <button
