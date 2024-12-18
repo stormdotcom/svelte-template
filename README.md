@@ -1,36 +1,105 @@
-# sv
+# Svelte Starter Template
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a starter template for building Svelte projects, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npx sv create
+- Simple setup for Svelte projects.
+- Fast development with live reloading.
+- Ready-to-build production configurations.
+- Easily customizable for your project needs.
+- Includes an **Admin Console** and a **Landing Page** to kickstart your app.
 
-# create a new project in my-app
-npx sv create my-app
-```
+---
+
+## Creating a Project
+
+Start by creating a new Svelte project using the `sv` CLI.
+
+### Steps:
+
+1. Create a new project in the current directory:
+   ```bash
+   npx sv create
+   ```
+
+2. Create a new project in a specified folder (e.g., `my-app`):
+   ```bash
+   npx sv create my-app
+   ```
+
+---
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+After creating a project and installing dependencies, start the development server:
 
-```bash
-npm run dev
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```
+2. Start the server on port 4000:
+   ```bash
+   npm run dev -- --port 4000
+   ```
+
+   The app will be available at `http://localhost:4000` by default.
+
+---
 
 ## Building
 
-To create a production version of your app:
+To generate a production-ready version of your app:
 
-```bash
-npm run build
-```
+1. Build the app:
+   ```bash
+   npm run build
+   ```
 
-You can preview the production build with `npm run preview`.
+2. Preview the production build locally:
+   ```bash
+   npm run preview
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+
+## Admin Console and Landing Page
+
+This template includes the following pre-configured pages:
+
+1. **Admin Console**:
+   - Manage application settings and monitor performance.
+   - Access the Admin Console at `/admin` (example: `http://localhost:4000/admin`).
+
+2. **Landing Page**:
+   - A customizable homepage for your application.
+   - Access the Landing Page at `/` (example: `http://localhost:4000`).
+
+You can edit these pages in the `src/routes` directory.
+
+---
+
+## Deploying
+
+To deploy your application, you may need to install a suitable [adapter](https://svelte.dev/docs/kit/adapters) based on your target environment, such as:
+- **Static sites**: `@sveltejs/adapter-static`
+- **Node.js servers**: `@sveltejs/adapter-node`
+- **Serverless platforms**: `@sveltejs/adapter-vercel`, `@sveltejs/adapter-netlify`, etc.
+
+Check the [official SvelteKit adapters documentation](https://kit.svelte.dev/docs/adapters) for more information.
+
+---
+
+## Resources
+
+- [Svelte Documentation](https://svelte.dev/docs)
+- [SvelteKit Documentation](https://kit.svelte.dev/docs)
+- [GitHub Repository](https://github.com/stormdotcom/svelte-template)
+
+---
+
+This template is designed to streamline your Svelte development workflow. Feel free to explore and customize it to suit your project needs! 🚀
+

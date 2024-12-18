@@ -55,7 +55,6 @@
               e.preventDefault();
               goto(item.href);
             }}
-            role="link"
             class="cursor-pointer text-xs uppercase py-3 font-bold block 
               {$page.url.pathname.includes(item.href) 
                 ? 'text-red-500 hover:text-red-600' 
