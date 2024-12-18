@@ -21,7 +21,7 @@
       <img src="/path-to-your-logo.png" alt="Logo" class="h-8 mr-2" /> 
 
       <!-- Brand Name -->
-      <h1 class="text-blueGray-700 text-lg font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase">
+      <h1 class="text-slate-700 text-lg font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase">
         {PUBLIC_PROJECT_NAME}
       </h1>
     </div>

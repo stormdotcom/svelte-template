@@ -17,7 +17,7 @@
             <h1 class="text-white font-semibold text-5xl">
               Your story starts with us.
             </h1>
-            <p class="mt-4 text-lg text-blueGray-200">
+            <p class="mt-4 text-lg text-slate-200">
               This is a simple example of a Landing Page you can build using
               SvelteKit. It features multiple CSS components based on the
               Tailwind CSS design system.
@@ -28,7 +28,7 @@
     </div>
   </div>
 
-  <section class="pb-20 bg-blueGray-200 -mt-24">
+  <section class="pb-20 bg-slate-200 -mt-24">
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <!-- Box 1 -->
@@ -43,7 +43,7 @@
                 <i class="fas fa-award"></i>
               </div>
               <h6 class="text-xl font-semibold">Feature 1 Title</h6>
-              <p class="mt-2 mb-4 text-blueGray-500">
+              <p class="mt-2 mb-4 text-slate-500">
                 Empower teams to work together seamlessly with real-time collaboration. Edits and updates are synchronized instantly, ensuring everyone stays aligned. Boost productivity, reduce confusion, and make teamwork effortless with this cutting-edge feature designed for dynamic projects.
               </p>
             </div>
@@ -62,7 +62,7 @@
                 <i class="fas fa-retweet"></i>
               </div>
               <h6 class="text-xl font-semibold">Feature 2 Title</h6>
-              <p class="mt-2 mb-4 text-blueGray-500">
+              <p class="mt-2 mb-4 text-slate-500">
                 Gain insights with powerful analytics. Track usage patterns, monitor performance, and make data-driven decisions to optimize your workflows effectively.
               </p>
             </div>
@@ -81,7 +81,7 @@
                 <i class="fas fa-lightbulb"></i>
               </div>
               <h6 class="text-xl font-semibold">Feature 3 Title</h6>
-              <p class="mt-2 mb-4 text-blueGray-500">
+              <p class="mt-2 mb-4 text-slate-500">
                 Experience seamless integration with your favorite tools and platforms. Connect effortlessly and unlock the full potential of your ecosystem.
               </p>
             </div>

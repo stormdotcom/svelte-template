@@ -23,14 +23,14 @@
   
   <div>
     <button
-      class="text-blueGray-500 block"
+      class="text-slate-500 block"
       aria-label="Toggle dropdown"
       bind:this={btnDropdownRef}
       on:click={toggleDropdown}
     >
       <div class="items-center flex">
         <span
-          class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"
+          class="w-12 h-12 text-sm text-white bg-slate-200 inline-flex items-center justify-center rounded-full"
         >
           <img
             alt="Profile"
@@ -45,29 +45,29 @@
       class={`bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48 ${dropdownPopoverShow ? 'block' : 'hidden'}`}
     >
       <button
-        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
         aria-label="Perform Action"
         on:click={(e) => e.preventDefault()}
       >
         Action
       </button>
       <button
-        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
         aria-label="Perform Another Action"
         on:click={(e) => e.preventDefault()}
       >
         Another action
       </button>
       <button
-        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
         aria-label="Perform Something Else"
         on:click={(e) => e.preventDefault()}
       >
         Something else here
       </button>
-      <div class="h-0 my-2 border border-solid border-blueGray-100"></div>
+      <div class="h-0 my-2 border border-solid border-slate-100"></div>
       <button
-        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
         aria-label="Perform Separated Link Action"
         on:click={(e) => e.preventDefault()}
       >

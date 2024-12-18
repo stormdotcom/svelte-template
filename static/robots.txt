@@ -1,0 +1,15 @@
+# Allow all bots to access everything
+User-agent: *
+Disallow:
+
+# Block all bots from accessing the admin area
+User-agent: *
+Disallow: /admin/
+
+# Prevent Googlebot from crawling sensitive files
+User-agent: Googlebot
+Disallow: /private/
+Disallow: /hidden/
+
+# Sitemap location
+Sitemap: https://example.com/sitemap.xml

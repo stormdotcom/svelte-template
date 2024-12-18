@@ -39,7 +39,7 @@
 
     <!-- Brand -->
     <a
-      class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+      class="md:block text-left md:pb-2 text-slate-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
       href="/"
     >
       {projectName}
@@ -58,13 +58,13 @@
             class="cursor-pointer text-xs uppercase py-3 font-bold block 
               {$page.url.pathname.includes(item.href) 
                 ? 'text-red-500 hover:text-red-600' 
-                : 'text-blueGray-700 hover:text-blueGray-500'}"
+                : 'text-slate-700 hover:text-slate-500'}"
           >
             <i
               class="{item.icon} mr-2 text-sm 
                 {$page.url.pathname.includes(item.href) 
                   ? 'opacity-75' 
-                  : 'text-blueGray-300'}"
+                  : 'text-slate-300'}"
             ></i>
             {item.name}
           </a>
