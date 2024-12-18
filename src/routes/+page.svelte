@@ -13,10 +13,10 @@
       ></span>
     </div>
     <div class="container mx-auto flex justify-between">
-      <a href="/home" class="text-white flex items-center">
+      <a href="/home" class="text-red flex items-center">
         <i class="fas fa-home mr-2"></i> Home
       </a>
-      <a href="/admin" class="text-white flex items-center">
+      <a href="/admin" class="text-red flex items-center">
         <i class="fas fa-user-shield mr-2"></i> Admin
       </a>
     </div>

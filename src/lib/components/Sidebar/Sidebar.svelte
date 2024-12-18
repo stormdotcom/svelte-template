@@ -13,10 +13,10 @@
   import { page } from '$app/stores';
   // Menu Items for Iteration
   const menuItems = [
-    { name: "Dashboard", href: "/dashboard", icon: "fas fa-tv" },
-    { name: "Portfolio Analytics", href: "/portfolio", icon: "fas fa-chart-bar" },
-    { name: "Logger", href: "/logger", icon: "fas fa-list" },
-    { name: "Settings", href: "/settings", icon: "fas fa-tools" },
+    { name: "Dashboard", href: "/admin/dashboard", icon: "fas fa-tv" },
+    { name: "Portfolio Analytics", href: "/admin/analytics/portfolio", icon: "fas fa-chart-bar" },
+    { name: "Logger", href: "/admin/logger", icon: "fas fa-list" },
+    { name: "Settings", href: "/admin/settings", icon: "fas fa-tools" },
   ];
 
 

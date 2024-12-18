@@ -1,5 +1,5 @@
 <script>
-    import PlaceholderIcon from '/assets/img/bootstrap.jpg';
+
   </script>
   
   <main>
@@ -8,7 +8,6 @@
     >
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="background-image: url('{PlaceholderIcon}');"
       >
         <span
           id="blackOverlay"
